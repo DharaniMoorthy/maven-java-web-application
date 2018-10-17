@@ -42,12 +42,12 @@ Also show cases the 'Simple Logging Framework - slf4j'.</description>
 					<!-- We need this for a Servlet 3.0 environment, no web.xml anymore! -->
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 					<!-- first priority for the WAR name -->
-					<warName>mywebapp</warName>
+					
 				</configuration>
 			</plugin>
 		</plugins>
 		<!-- shown as an example, second priority for the WAR name -->
-		<finalName>mywebappNameSecondOption</finalName>
+		 <finalName>WebApp</finalName>
 	</build>
 
 	<dependencies>
